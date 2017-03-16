@@ -1,0 +1,79 @@
+html {
+    overflow: auto;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+span.colorpick-btn, span.btn-colorpicker {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+#info-popup .modal-content {
+    background: #3a4597;
+    color: #fff;
+}
+
+#gridsterBase {
+    width: 100%;
+    height: 100%;
+}
+
+.product {
+    background: #0c1239;
+    color: #fff;
+    word-wrap: break-word;
+}
+
+.product.bg-white {
+    color: #000;
+}
+
+.product:hover {
+    box-shadow: #fff 1px 1px 5px;
+    cursor: move;
+}
+
+.product > .name {
+    font-size: 13px;
+    width: 80%;
+    padding: 3px;
+}
+
+.product > .footer-title {
+    font-size: 11px;
+    position: absolute;
+    bottom: 0;
+    padding: 3px;
+    left: 0;
+}
+
+.product.selected {
+    border: 2px solid #fff;
+}
+
+.product.bg-white.selected {
+    border: 3px solid #27aae1;
+}
+
+.infoboxmodule {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.45;
+    filter: alpha(opacity=45);
+    color: #fff;
+    width: 1em;
+    text-align: center;
+    padding-left: 0.5em;
+    padding-right: 0.75em;
+    cursor: pointer;
+}
+
+md-toast {
+    color: black;
+    background-color: white;
+}
